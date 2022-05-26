@@ -1,0 +1,82 @@
+*{
+  font-family: 'Mulish', sans-serif;
+}
+.toggle-sidebar{
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  width: 2vw;
+  height: 2vw;
+  background: #f5eff2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-sidebar-open{
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f5eff2;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addArtcle{
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  width: 10vw;
+  height: 5vw;
+  color: rgb(83, 161, 148);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addArtcle span{
+  margin-left: 0.3rem;
+  width: 2vw;
+  height: 2vw;
+  background: #f5eff2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.editArtcle{
+  position: fixed;
+  top: 3vw;
+  right: 1vw;
+  width: 10vw;
+  height: 5vw;
+  color: #E54F6D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.editArtcle span{
+  margin-left: 0.3rem;
+  padding: 0.3vw;
+  width: 2.7vw;
+  height: 2.7vw;
+  background: #f1d7dc;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

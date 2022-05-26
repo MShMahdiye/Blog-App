@@ -1,0 +1,48 @@
+.addArtcle{
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  width: 10vw;
+  height: 5vw;
+  color: rgb(83, 161, 148);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.addArtcle span{
+  margin-left: 0.3rem;
+  width: 2vw;
+  height: 2vw;
+  background: #f5eff2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ArticleByUser{
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+  width: 10vw;
+  height: 5vw;
+  color: #F8C630;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ArticleByUser span{
+  margin-left: 0.3rem;
+  width: 3vw;
+  height: 3vw;
+  background: #f5eff2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

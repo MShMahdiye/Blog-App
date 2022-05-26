@@ -1,0 +1,64 @@
+.big-signupContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signupContainer{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  font-family: 'Mulish', sans-serif;
+  box-shadow: 0 0 0.2rem #e2dfdf98;
+}
+
+.btn-page-signup{
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem #B0E3FF;
+}
+
+.btn-page-signup:hover{
+  box-shadow: 0 0 2.4rem #B0E3FF;
+}
+.btn-page-signup-login{
+  padding: 0.5rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 1rem #B0E3FF;
+}
+
+.btn-page-signup-login:hover{
+  box-shadow: 0 0 2.4rem #B0E3FF;
+}
+
+.inp-signup{
+  width: 25vw;
+  height: 3vw;
+  margin-bottom: 2vw;
+  border: #d5d5d5 1px solid;
+  border-radius: .3rem;
+  caret-color:#B0E3FF;
+  padding: 0 1rem;
+}
+
+.inp-signup:focus{
+  border: #B0E3FF 1px solid;
+  outline:#B0E3FF 1px solid;
+  border-radius: .3rem;
+}
+
+.left-signup{
+  background: #aadffc;
+  background: radial-gradient(circle, #aadffc 0%, #CAECFF 35%, #E3F5FF 100%);
+}
+
+.icon-sign-pic{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 4vw;
+  height: 6.7vw;
+  line-height: 7vw;
+  text-align: center;
+}

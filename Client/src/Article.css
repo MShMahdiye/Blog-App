@@ -1,0 +1,26 @@
+.inner-article-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: #d5d5d5 0.1rem solid;
+  height: 25vw;
+  border-right: none;
+  border-bottom: none;
+  cursor: pointer;
+}
+
+.article-pic{
+  /* background-color: #333; */
+}
+
+.img-article{
+  width: 10vw;
+  height: 10vw;
+  image-rendering:crisp-edges;
+  border-radius: 0.5rem;
+}
+
+.article-info{
+  text-align: left;
+}

@@ -1,0 +1,46 @@
+*{
+  font-family: 'Mulish', sans-serif;
+}
+.toggle-sidebar{
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  width: 2vw;
+  height: 2vw;
+  background: #f5eff2;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.toggle-sidebar-open{
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: #f5eff2;
+  box-shadow: 0 0 0.3rem #e994a436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.smallOutlet{
+  transition: width 2.5s;
+}
+
+.bigOutlet{
+  transition: width 2.5s;
+}
+
+.dashboard-outlet-Container{
+ top: -5vw;
+ height: auto;
+}
